@@ -13,4 +13,7 @@ datagroup: demo_bc_default_datagroup {
 
 persist_with: demo_bc_default_datagroup
 
-explore: looker_list {}
+explore: looker_list {
+  group_label: "BC"
+  view_label: "Looker"
+}
